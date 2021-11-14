@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B828109-F2FA-4507-9EFD-3F26621DFCDA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Negocio</RootNamespace>
+    <AssemblyName>Negocio</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Distribuciones\AlisamientoExponencial.cs" />
+    <Compile Include="Distribuciones\Base.cs" />
+    <Compile Include="Distribuciones\CongruencialLineal.cs" />
+    <Compile Include="Distribuciones\Exponencial.cs" />
+    <Compile Include="Distribuciones\Exportar.cs" />
+    <Compile Include="Gestiones\Gestion_AleatoriosCantidadImpresoras.cs" />
+    <Compile Include="Gestiones\Gestion_AleatoriosVentasImpresoras.cs" />
+    <Compile Include="Gestiones\Gestion_LineaDeEsperaCasoDos.cs" />
+    <Compile Include="Gestiones\Gestion_LineaDeEsperaCasoUno.cs" />
+    <Compile Include="Gestiones\Gestion_PoliticaInventario.cs" />
+    <Compile Include="Gestiones\Gestion_PronosticosImpresorasArregladas.cs" />
+    <Compile Include="Gestiones\Gestion_PronosticosVentasImpresoras.cs" />
+    <Compile Include="Gestiones\Gestion_Proyecto.cs" />
+    <Compile Include="Gestiones\Gestion_Simulacion.cs" />
+    <Compile Include="Mapeos\AleatoriosCantidadImpresoras.cs" />
+    <Compile Include="Mapeos\AleatoriosSimulacion.cs" />
+    <Compile Include="Mapeos\AleatoriosVentasImpresoras.cs" />
+    <Compile Include="Mapeos\LineaDeEsperaCasoDos.cs" />
+    <Compile Include="Mapeos\LineaDeEsperaCasoUno.cs" />
+    <Compile Include="Mapeos\PoliticaInventario.cs" />
+    <Compile Include="Mapeos\PronosticosImpresorasArregladas.cs" />
+    <Compile Include="Mapeos\PronosticosSimulacion.cs" />
+    <Compile Include="Mapeos\PronosticosVentasImpresoras.cs" />
+    <Compile Include="Mapeos\Proyecto.cs" />
+    <Compile Include="Simulaciones\Complemeto_Linea_De_Espera_Caso_Dos.cs" />
+    <Compile Include="Simulaciones\LineaDeEsperaCasoDos.cs" />
+    <Compile Include="Simulaciones\MonteCarloFinal.cs" />
+    <Compile Include="Gestiones\Gestion_Aleatorios.cs" />
+    <Compile Include="Gestiones\Gestion_Frecuencias.cs" />
+    <Compile Include="Gestiones\Gestion_Inventario.cs" />
+    <Compile Include="Mapeos\Aleatorios.cs" />
+    <Compile Include="Mapeos\Frecuencias.cs" />
+    <Compile Include="Mapeos\Inventario.cs" />
+    <Compile Include="Simulaciones\LineaDeEsperaCasoUno.cs" />
+    <Compile Include="Simulaciones\LineasDeEsperaUnCanal.cs" />
+    <Compile Include="Distribuciones\MonteCarlo.cs" />
+    <Compile Include="Distribuciones\Poisson.cs" />
+    <Compile Include="Simulaciones\PoliticaDeInventario.cs" />
+    <Compile Include="Simulaciones\PoliticaInventario.cs" />
+    <Compile Include="Distribuciones\PromedioMovil.cs" />
+    <Compile Include="Distribuciones\PromedioMovilPronostico.cs" />
+    <Compile Include="Distribuciones\RegresionCuadratica.cs" />
+    <Compile Include="Distribuciones\RegresionLineal.cs" />
+    <Compile Include="Distribuciones\VariableAleatoria.cs" />
+    <Compile Include="Gestiones\Gestion_Aleatorio.cs" />
+    <Compile Include="Gestiones\Gestion_AlisamientoExponencial.cs" />
+    <Compile Include="Gestiones\Gestion_Congruencial.cs" />
+    <Compile Include="Gestiones\Gestion_Cuadratica.cs" />
+    <Compile Include="Gestiones\Gestion_Exponencial.cs" />
+    <Compile Include="Gestiones\Gestion_LineaEsperaUnCanal.cs" />
+    <Compile Include="Gestiones\Gestion_Lineal.cs" />
+    <Compile Include="Gestiones\Gestion_MonteCarlo.cs" />
+    <Compile Include="Gestiones\Gestion_Poisson.cs" />
+    <Compile Include="Gestiones\Gestion_PromedioMovil.cs" />
+    <Compile Include="Gestiones\Gestion_PromedioMovilPronostico.cs" />
+    <Compile Include="Gestiones\IGestion.cs" />
+    <Compile Include="Mapeos\Aleatoria.cs" />
+    <Compile Include="Mapeos\AlisamientoExponencial.cs" />
+    <Compile Include="Mapeos\Congruencial.cs" />
+    <Compile Include="Mapeos\Cuadratica.cs" />
+    <Compile Include="Mapeos\Exponencial.cs" />
+    <Compile Include="Mapeos\LineaEsperaUnCanal.cs" />
+    <Compile Include="Mapeos\Lineal.cs" />
+    <Compile Include="Mapeos\MonteCarlo.cs" />
+    <Compile Include="Mapeos\Poisson.cs" />
+    <Compile Include="Mapeos\PromedioMovil.cs" />
+    <Compile Include="Mapeos\PromedioMovilPronostico.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Simulaciones\PromedioMovilDoble.cs" />
+    <Compile Include="Simulaciones\Proyecto.cs" />
+    <Compile Include="Mapeos\Simulacion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseDatos\BaseDatos.csproj">
+      <Project>{6656ab17-330a-4d47-81d3-f6f5cafba2ec}</Project>
+      <Name>BaseDatos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

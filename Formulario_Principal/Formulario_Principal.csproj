@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{049CDADC-B746-48FF-9230-1F12BBCB1F54}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Formulario_Principal</RootNamespace>
+    <AssemblyName>Formulario_Principal</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Formulario_AleatorioImpresorasArregladas\Formulario_AleatorioImpresorasArregladas.csproj">
+      <Project>{888ca297-90bf-4293-b97b-71c018ded88f}</Project>
+      <Name>Formulario_AleatorioImpresorasArregladas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Aleatorios\Formulario_Aleatorios.csproj">
+      <Project>{337a5c0c-3700-42b2-b328-c299a54892d5}</Project>
+      <Name>Formulario_Aleatorios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_AleatorioVentasImpresoras\Formulario_AleatorioVentasImpresoras.csproj">
+      <Project>{54284990-93b4-4045-9f6a-fd168d666829}</Project>
+      <Name>Formulario_AleatorioVentasImpresoras</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Alisamiento_Exponencial\Formulario_Alisamiento_Exponencial.csproj">
+      <Project>{1a6589b2-272e-4343-ac0c-9df4755567ce}</Project>
+      <Name>Formulario_Alisamiento_Exponencial</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Ayuda\Formulario_Ayuda.csproj">
+      <Project>{f091c674-d3c6-4867-906a-e4c4cf7fddcf}</Project>
+      <Name>Formulario_Ayuda</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Congruencial_Lineal\Formulario_Congruencial_Lineal.csproj">
+      <Project>{29496b40-6b22-42b5-9661-d381289ee2e5}</Project>
+      <Name>Formulario_Congruencial_Lineal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Exponencial\Formulario_Exponencial.csproj">
+      <Project>{bc0be399-cfa7-464e-92a5-028eb008078b}</Project>
+      <Name>Formulario_Exponencial</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Frecuencias\Formulario_Frecuencias.csproj">
+      <Project>{88d47184-d77e-47e1-be56-938ebab83d1c}</Project>
+      <Name>Formulario_Frecuencias</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Inventario\Formulario_Inventario.csproj">
+      <Project>{5886e97b-ff7e-409c-88fe-e60cfc64024d}</Project>
+      <Name>Formulario_Inventario</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Linea_De_Espera_Caso_Dos\Formulario_Linea_De_Espera_Caso_Dos.csproj">
+      <Project>{9c901b4a-3004-44c0-8fcb-5eaaac2a950e}</Project>
+      <Name>Formulario_Linea_De_Espera_Caso_Dos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Linea_De_Espera_Caso_Uno\Formulario_Linea_De_Espera_Caso_Uno.csproj">
+      <Project>{9e4b36b0-b984-4d37-93b2-818bc4747ca5}</Project>
+      <Name>Formulario_Linea_De_Espera_Caso_Uno</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Linea_De_Espera_Un_Canal\Formulario_Linea_De_Espera_Un_Canal.csproj">
+      <Project>{90158933-1cf5-4e8a-8aa9-86478f3d9b3b}</Project>
+      <Name>Formulario_Linea_De_Espera_Un_Canal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Monte_Carlo\Formulario_Monte_Carlo.csproj">
+      <Project>{7a0f0c3d-7b3e-4ccf-ad85-133605b30f7f}</Project>
+      <Name>Formulario_Monte_Carlo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Poisson\Formulario_Poisson.csproj">
+      <Project>{d959fee5-ca86-4ff8-a7aa-dee7dc420cfe}</Project>
+      <Name>Formulario_Poisson</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Politica_De_Inventario\Formulario_Politica_De_Inventario.csproj">
+      <Project>{490ccf74-c95a-4813-bb67-ed676080f324}</Project>
+      <Name>Formulario_Politica_De_Inventario</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Promedio_Movil\Formulario_Promedio_Movil.csproj">
+      <Project>{cb01051c-2567-4d69-b3f8-b4e6cca1880c}</Project>
+      <Name>Formulario_Promedio_Movil</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Promedio_Movil_Pronostico\Formulario_Promedio_Movil_Pronostico.csproj">
+      <Project>{eb51ceae-da85-4eca-bfe2-ea51be7a41bb}</Project>
+      <Name>Formulario_Promedio_Movil_Pronostico</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_PronosticoImpresorasArregladas\Formulario_PronosticoImpresorasArregladas.csproj">
+      <Project>{5ee6828c-4d41-493f-803d-f1e8f0618fa8}</Project>
+      <Name>Formulario_PronosticoImpresorasArregladas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_PronosticoVentasImpresoras\Formulario_PronosticoVentasImpresoras.csproj">
+      <Project>{1488357e-2de7-4837-82f3-94b261c28a9d}</Project>
+      <Name>Formulario_PronosticoVentasImpresoras</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Proyecto\Formulario_Proyecto.csproj">
+      <Project>{695a65d7-f1b8-4b09-84da-054bd6adb1bc}</Project>
+      <Name>Formulario_Proyecto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Regresion_Cuadratica\Formulario_Regresion_Cuadratica.csproj">
+      <Project>{acd9c72c-7a1b-45e2-a317-ac9e03c49111}</Project>
+      <Name>Formulario_Regresion_Cuadratica</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Regresion_Lineal\Formulario_Regresion_Lineal.csproj">
+      <Project>{ad256aad-3bad-44e9-b45f-ba5385c325d4}</Project>
+      <Name>Formulario_Regresion_Lineal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Resultados\Formulario_Resultados.csproj">
+      <Project>{bd3fead3-b03d-4c00-9bac-3f3996eb28f9}</Project>
+      <Name>Formulario_Resultados</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulario_Variable_Aleatoria\Formulario_Variable_Aleatoria.csproj">
+      <Project>{f3854bbe-ffb3-4b20-94d1-9893a6f08563}</Project>
+      <Name>Formulario_Variable_Aleatoria</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

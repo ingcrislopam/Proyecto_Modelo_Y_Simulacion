@@ -1,0 +1,56 @@
+C:\Users\Manuel\Documents\Visual Studio 2013\Projects\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.dll
+C:\Users\Manuel\Documents\Visual Studio 2013\Projects\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Manuel\Documents\Visual Studio 2013\Projects\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.dll
+C:\Users\Manuel\Documents\Visual Studio 2013\Projects\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Manuel\Documents\Visual Studio 2013\Projects\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.dll
+C:\Users\Manuel\Documents\Visual Studio 2013\Projects\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.pdb
+C:\Users\Manuel\Documents\Visual Studio 2013\Projects\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+G:\Modelo_Simulacion_Distribuciones\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.dll
+G:\Modelo_Simulacion_Distribuciones\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.pdb
+G:\Modelo_Simulacion_Distribuciones\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.dll
+G:\Modelo_Simulacion_Distribuciones\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.pdb
+G:\Modelo_Simulacion_Distribuciones\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+G:\Modelo_Simulacion_Distribuciones\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.dll
+G:\Modelo_Simulacion_Distribuciones\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.pdb
+I:\Modelo_Simulacion_Distribuciones\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.dll
+I:\Modelo_Simulacion_Distribuciones\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.pdb
+I:\Modelo_Simulacion_Distribuciones\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.dll
+I:\Modelo_Simulacion_Distribuciones\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.pdb
+I:\Modelo_Simulacion_Distribuciones\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+I:\Modelo_Simulacion_Distribuciones\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.dll
+I:\Modelo_Simulacion_Distribuciones\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Cristhian\Desktop\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.dll
+C:\Users\Cristhian\Desktop\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Cristhian\Desktop\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.dll
+C:\Users\Cristhian\Desktop\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.pdb
+C:\Users\Cristhian\Desktop\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Cristhian\Desktop\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.dll
+C:\Users\Cristhian\Desktop\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.pdb
+I:\Modelo_Y_Simulacion_Casi_Finalizado\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.dll
+I:\Modelo_Y_Simulacion_Casi_Finalizado\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.pdb
+I:\Modelo_Y_Simulacion_Casi_Finalizado\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.dll
+I:\Modelo_Y_Simulacion_Casi_Finalizado\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.pdb
+I:\Modelo_Y_Simulacion_Casi_Finalizado\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+I:\Modelo_Y_Simulacion_Casi_Finalizado\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.dll
+I:\Modelo_Y_Simulacion_Casi_Finalizado\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.pdb
+F:\Modelo_Y_Simulacion_Casi_Finalizado\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.dll
+F:\Modelo_Y_Simulacion_Casi_Finalizado\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.pdb
+F:\Modelo_Y_Simulacion_Casi_Finalizado\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.dll
+F:\Modelo_Y_Simulacion_Casi_Finalizado\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.pdb
+F:\Modelo_Y_Simulacion_Casi_Finalizado\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+F:\Modelo_Y_Simulacion_Casi_Finalizado\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.dll
+F:\Modelo_Y_Simulacion_Casi_Finalizado\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Cristhian\Documents\Visual Studio 2013\Projects\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.dll
+C:\Users\Cristhian\Documents\Visual Studio 2013\Projects\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Cristhian\Documents\Visual Studio 2013\Projects\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.dll
+C:\Users\Cristhian\Documents\Visual Studio 2013\Projects\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.pdb
+C:\Users\Cristhian\Documents\Visual Studio 2013\Projects\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Cristhian\Documents\Visual Studio 2013\Projects\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.dll
+C:\Users\Cristhian\Documents\Visual Studio 2013\Projects\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.pdb
+I:\RESPALDO_CRISTHIAN\Desktop\Memoria_Ultimos_Archivos\Modelo_Y_Simulacion_Sistema_Vida_Real_Tercer_Parcial_Lopez_Cristhian_5A\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.dll
+I:\RESPALDO_CRISTHIAN\Desktop\Memoria_Ultimos_Archivos\Modelo_Y_Simulacion_Sistema_Vida_Real_Tercer_Parcial_Lopez_Cristhian_5A\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\Negocio.pdb
+I:\RESPALDO_CRISTHIAN\Desktop\Memoria_Ultimos_Archivos\Modelo_Y_Simulacion_Sistema_Vida_Real_Tercer_Parcial_Lopez_Cristhian_5A\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.dll
+I:\RESPALDO_CRISTHIAN\Desktop\Memoria_Ultimos_Archivos\Modelo_Y_Simulacion_Sistema_Vida_Real_Tercer_Parcial_Lopez_Cristhian_5A\Proyecto_Modelo_Y_Simulacion\Negocio\bin\Debug\BaseDatos.pdb
+I:\RESPALDO_CRISTHIAN\Desktop\Memoria_Ultimos_Archivos\Modelo_Y_Simulacion_Sistema_Vida_Real_Tercer_Parcial_Lopez_Cristhian_5A\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+I:\RESPALDO_CRISTHIAN\Desktop\Memoria_Ultimos_Archivos\Modelo_Y_Simulacion_Sistema_Vida_Real_Tercer_Parcial_Lopez_Cristhian_5A\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.dll
+I:\RESPALDO_CRISTHIAN\Desktop\Memoria_Ultimos_Archivos\Modelo_Y_Simulacion_Sistema_Vida_Real_Tercer_Parcial_Lopez_Cristhian_5A\Proyecto_Modelo_Y_Simulacion\Negocio\obj\Debug\Negocio.pdb

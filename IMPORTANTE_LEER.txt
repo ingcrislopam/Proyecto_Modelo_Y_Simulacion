@@ -1,0 +1,2 @@
+Instalar el contenido que se encuentra en la carpeta Complemento_Para_Poder_Imprimir.
+Si no se llegase a instalar este complemento no podrá realizar impresiones desde el programa.
